@@ -1,6 +1,7 @@
 Algoritmo basic_calcl
 	//Declare variables or constants
-	Definir num1, num2, add, subs, mult, div Como Entero
+	Definir num1, num2, add, subs, mult Como Entero
+	Definir  div Como Real
 	//assign or initialize variables or constants
 	num1<-0
 	num2<-0
@@ -9,8 +10,10 @@ Algoritmo basic_calcl
 	mult<-0
 	div<-0
 	//imputs
-	num1<-10
-	num2<-5
+	Escribir  "plase, enter first number: "
+	Leer num1
+	Escribir  "plase, enter first number: "
+	Leer num2
 	//prosecos
 	add<-num1+num2
 	suds<-num1-num2
