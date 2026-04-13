@@ -25,7 +25,7 @@ while True:
         print("El promedio es: ", (num1 + num2) / 2)
     else:
         print("Opcion no valida. Por favor, elija una opcion del 1 al 6.")
-        continuar = input("¿Desea realizar otra operación? (si/no): ")
-         if continuar.lower() != 's':
+    continuar = input("¿Desea realizar otra operación? (si/no): ")
+         if continuar.lower() != 'si':
         print("Gracias por usar la calculadora. ¡Hasta luego!")
         break
