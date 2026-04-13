@@ -1,4 +1,5 @@
-    opcion = input("CALCULADORAV3\n1. suma \n2. resta\n3. multiplicacion\n4. division\n5. todas las operaciones\n6. promedio\nElija una opcion: ")
+while True:
+opcion = input("CALCULADORAV3\n1. suma \n2. resta\n3. multiplicacion\n4. division\n5. todas las operaciones\n6. promedio\nElija una opcion: ")
     
     num1 = float(input("Ingrese num1: "))
     num2 = float(input("Ingrese num2: "))
@@ -26,4 +27,7 @@
         print("El promedio es: ", (num1 + num2) / 2)
     else:
         print("Opcion no valida. Por favor, elija una opcion del 1 al 6.")
+         if continuar.lower() != 's':
+        print("Gracias por usar la calculadora. ¡Hasta luego!")
+        break
      
