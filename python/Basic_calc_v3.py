@@ -1,9 +1,7 @@
 while True:
-opcion = input("CALCULADORAV3\n1. suma \n2. resta\n3. multiplicacion\n4. division\n5. todas las operaciones\n6. promedio\nElija una opcion: ")
-    
+    opcion = input("CALCULADORAV3\n1. suma \n2. resta\n3. multiplicacion\n4. division\n5. todas las operaciones\n6. promedio\nElija una opcion: ")
     num1 = float(input("Ingrese num1: "))
     num2 = float(input("Ingrese num2: "))
-
     if opcion == "1":
         print("La suma es: ", num1 + num2)
     elif opcion == "2":
