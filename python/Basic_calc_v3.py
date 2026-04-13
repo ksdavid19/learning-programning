@@ -29,4 +29,3 @@ while True:
          if continuar.lower() != 's':
         print("Gracias por usar la calculadora. ¡Hasta luego!")
         break
-     
